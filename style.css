@@ -1,0 +1,166 @@
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f3f3f3;
+      body {
+  padding-top: 80px; /* bằng chiều cao header */
+}
+
+    }
+
+    header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #3366cc;
+  color: white;
+  padding: 20px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 22px;
+  transform: rotate(-10deg);
+  margin: 0;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.header-buttons button {
+  padding: 5px 10px;
+  border: none;
+  background: #fff;
+  color: #3366cc;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+
+    /* Menu ngang */
+    nav {
+      background: #f5deb3;
+      display: flex;
+      padding: 10px;
+    }
+
+    nav a {
+      margin-right: 10px;
+      text-decoration: none;
+      padding: 8px 15px;
+      border-radius: 8px;
+      color: black;
+      font-weight: bold;
+    }
+
+    nav a:nth-child(1) { background: #ff6666; }
+    nav a:nth-child(2) { background: #a8e063; }
+    nav a:nth-child(3) { background: #ffd700; }
+    nav a:nth-child(4) { background: #dda0dd; }
+
+    /* Layout chính */
+    .container {
+      display: flex;
+      margin-top: 10px;
+    }
+
+    /* Menu dọc */
+    aside {
+      width: 200px;
+      background: #e6f0ff;
+      padding: 15px;
+    }
+
+    aside ul {
+      list-style: none;
+    }
+
+    aside ul li {
+      margin: 10px 0;
+      padding: 8px;
+      background: #87cefa;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    /* Nội dung chính */
+    main {
+      flex: 1;
+      padding: 15px;
+    }
+
+    .row {
+      display: flex;
+      gap:10px; 
+      margin-bottom: 10px;
+    }
+
+    .form-box, .content-box {
+      border: 1px solid red;
+      padding: 10px;
+      background: #fff;
+    }
+
+    .form-box {
+      width: 250px;
+    }
+
+    .form-box label {
+      display: block;
+      margin: 8px 0 3px;
+    }
+
+    .form-box input {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .content-box {
+        background-size: cover;
+     background-repeat: no-repeat;
+      background-image: url("hehe.png");
+      flex: 1;
+      min-height: 150px;
+    }
+
+    .big-box {
+    
+      border: 1px solid red;
+      min-height: 200px;
+      width: 100%;
+      background-color: red;
+    }
+      .hehe{
+        color :#3366cc;
+        text-align: center;
+        display:block; 
+        margin : 30px;
+     }
+     .hihi{
+        background-color: #3366cc;
+        color :#ffd700 ;
+        display:block;
+        margin-bottom: 70px;
+     }
+     .haha{
+     ;
+        border-style: outset;
+        width:100% ;
+        height: 50%;
+        background-color: #87cefa;
+
+     }
